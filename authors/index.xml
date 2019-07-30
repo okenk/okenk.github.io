@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on Oken Lab</title>
+    <link>https://okenk.github.io/authors/</link>
+    <description>Recent content in Authors on Oken Lab</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    
+	    <atom:link href="https://okenk.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://okenk.github.io/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://okenk.github.io/authors/admin/</guid>
+      <description>
+
+&lt;h3 id=&#34;biography&#34;&gt;Biography&lt;/h3&gt;
+
+&lt;p&gt;Kiva completed her BA in Math at Carleton College in 2010 and her PhD at the University of Washington in the Quantitative Ecology &amp;amp; Resource Management (QERM) program in 2016, followed by postdocs at Rutgers University and the University of Washington/NOAA Northwest Fisheries Science Center. Her research approach combines novel statistical methods and mechanistic mathematical models in order to study complex data sets, answer ecological questions, and help improve fisheries management. She&amp;rsquo;s also easily distracted by colleagues&amp;rsquo; statistical quandries. When not writing beautiful R code, she enjoys eating good food with friends and propelling herself in a variety of modes over trails, roads, rocks, water, and snow.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>kiva-oken</title>
+      <link>https://okenk.github.io/authors/kiva-oken/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://okenk.github.io/authors/kiva-oken/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
