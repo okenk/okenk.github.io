@@ -15,6 +15,11 @@
   </url>
   
   <url>
+    <loc>https://okenk.github.io/internal/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://okenk.github.io/prospectives/</loc>
   </url>
   
