@@ -28,10 +28,11 @@
   
     
   
-  <meta name="description" content="Assistant Professor">
+  <meta name="description" content="How to add yourself to the lab webpage The lab webpage is hosted by github pages. The code for the webpage is in a github repository. Any collaborator on the repository can make changes to the webpage.
+If you have never used git and github before:  Sign up for an account. Download the git software Get your git account set up on your computer. Check out this getting started document.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://okenk.github.io/authors/">
+  <link rel="alternate" hreflang="en-us" href="https://okenk.github.io/internal/">
 
   
 
@@ -107,17 +108,13 @@
   
 
   
-  <link rel="alternate" href="/authors/index.xml" type="application/rss+xml" title="Oken Lab">
-  
 
-  
-  <link rel="alternate" type="application/rss&#43;xml" href="/authors/index.xml">
   
 
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://okenk.github.io/authors/">
+  <link rel="canonical" href="https://okenk.github.io/internal/">
 
   
   
@@ -129,13 +126,15 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Oken Lab">
-  <meta property="og:url" content="https://okenk.github.io/authors/">
-  <meta property="og:title" content="Authors | Oken Lab">
-  <meta property="og:description" content="Assistant Professor"><meta property="og:image" content="https://okenk.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://okenk.github.io/internal/">
+  <meta property="og:title" content=" | Oken Lab">
+  <meta property="og:description" content="How to add yourself to the lab webpage The lab webpage is hosted by github pages. The code for the webpage is in a github repository. Any collaborator on the repository can make changes to the webpage.
+If you have never used git and github before:  Sign up for an account. Download the git software Get your git account set up on your computer. Check out this getting started document."><meta property="og:image" content="https://okenk.github.io/img/icon-192.png">
   <meta property="twitter:image" content="https://okenk.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
   
   
+  
 
   
 
@@ -146,7 +145,7 @@
 
 
 
-  <title>Authors | Oken Lab</title>
+  <title> | Oken Lab</title>
 
 </head>
 
@@ -347,56 +346,156 @@
 </nav>
 
 
-  
-
-
-
-
-
-
-
-
-
-
-
+  <article class="article" itemscope itemtype="http://schema.org/Article">
 
   
 
+
+
+
+
+
+
+
+
+
+
+
+  
+
   
   
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name"></h1>
+
+  
+
   
     
-  
-<div class="universal-wrapper pt-3">
-  <h1 itemprop="name">Authors</h1>
+
+
+
+<meta content="" itemprop="datePublished">
+<meta content="" itemprop="dateModified">
+
+<div class="article-metadata">
 
   
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+    
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   
 </div>
 
 
 
-<div class="universal-wrapper">
-  
+  <div class="article-container">
 
-  <ul>
-    
-    
+    <div class="article-style" itemprop="articleBody">
       
-      <li><a href="https://okenk.github.io/authors/admin/">Kiva Oken</a></li>
-    
-      
-      <li><a href="https://okenk.github.io/authors/nima-farchadi/">Nima Farchadi</a></li>
-    
-      
-      <li><a href="https://okenk.github.io/authors/kiva-oken/">kiva-oken</a></li>
-    
-  </ul>
 
-  
+<h1 id="how-to-add-yourself-to-the-lab-webpage">How to add yourself to the lab webpage</h1>
 
-</div>
+<p>The lab webpage is hosted by github pages. The code for the webpage is in a github repository. Any collaborator on the repository can make changes to the webpage.</p>
+
+<h3 id="if-you-have-never-used-git-and-github-before">If you have never used git and github before:</h3>
+
+<ol>
+<li><a href="https://github.com/" target="_blank">Sign up for an account</a>.</li>
+<li><a href="https://git-scm.com/downloads" target="_blank">Download the git software</a></li>
+<li>Get your git account set up on your computer. Check out this <a href="https://help.github.com/en/github/getting-started-with-github" target="_blank">getting started document</a>.</li>
+</ol>
+
+<h3 id="now-that-you-have-git-working-you-can-download-the-website-repo-locally">Now that you have git working, you can download the website repo locally</h3>
+
+<ol>
+<li>Give Kiva your github username so she can add you as a collaborator for the website repo.</li>
+<li>In  the terminal (MacOS) or Git Bash (Windows), type <code>git clone https://github.com/okenk/academic-kickstart.git directory-name</code> where &ldquo;directory-name&rdquo; is what you want the folder to be called. It may ask for your github username and password. Once it is downloaded, switch to the new directory with <code>cd directory-name</code>.</li>
+<li>Now type <code>git submodule update --init --recursive</code>.</li>
+<li>We want to avoid problems associated with two people editing things at once. By default, you are working off of the &ldquo;master branch.&rdquo; Instead, you want to work off of your own development branch. To do this, type <code>git checkout -b my-awesome-branch</code>. (You can call the branch whatever you want.) Now it&rsquo;s time to make changes!</li>
+</ol>
+
+<h3 id="how-to-add-yourself-to-the-list-of-lab-members">How to add yourself to the list of lab members</h3>
+
+<ol>
+<li>Create a new folder: ~/content/authors/your-name where ~ is the location of the lab webpage directory on your local computer.</li>
+<li>Using the _index.md file in the admin sub-directory of authors as a template, create and fill in your own _index.md file in your new personal folder. (The file name still needs to be called _index.md.) Set <code>superuser = false</code>. Set <code>organization</code> equal to your graduate group if you are a grad student; keep it as WFCB if you are a postdoc. Set your <code>user group</code> equal to <code>&quot;Graduate students&quot;</code> or <code>&quot;Postdocs&quot;</code>. Your <code>role</code> can be more specific, e.g., PhD student, PhD candidate, MS student, etc. I usually do this in RStudio but any text editor will do. If using RStudio, open the website&rsquo;s RProject first, ~/academic.RProj.</li>
+<li>Fill in remaining personal details and a short biography. Feel free to leave anything out or add extra links.</li>
+<li>Add a picture of yourself to your directory folder and title it avatar.jpg</li>
+</ol>
+
+<h3 id="ok-now-it-s-time-to-test-your-changes-push-them-to-the-remote-repository-and-rebuild-the-website">Ok, now it&rsquo;s time to test your changes, push them to the remote repository, and rebuild the website.</h3>
+
+<ol>
+<li><a href="https://gohugo.io/getting-started/installing/" target="_blank">Install Hugo</a>. This is the engine that takes a bunch of markdown files and the other setup parameters and themes and converts the whole thing to html.</li>
+<li>Install the <code>blogdown</code> R package.</li>
+<li>With the website&rsquo;s RProject open, run the R command <code>blogdown::serve_site()</code>. The website will open in the RStudio preview window, though it&rsquo;s kind of buggy. Instead, after successfully running the R command, there should be a message &ldquo;Serving the directory ~ at X.&rdquo; Copy the url X into a web browser, and you can better preview the webpage.</li>
+<li>If you want to make further changes, <code>blogdown</code> will automatically update newly saved changes to the locally served site, so just hit refresh in your browser after hitting save in RStudio.</li>
+<li>Back in the terminal or Git Bash, type <code>git commit -a -m &quot;description of changes made&quot;</code>.</li>
+<li>Check github to make sure no one else published any changes while you were working. If not, type <code>git commit -a -m &quot;message describing what you did&quot;</code>. If there are changes, go back to the terminal or Git Bash and type <code>git fetch</code> followed by <code>git rebase</code>.
+This will update the files in your local repository and then add your changes on top of that.</li>
+<li>Now type <code>git push</code>.</li>
+<li>Navigate to the <a href="https://github.com/okenk/academic-kickstart" target="_blank">online repo on github</a>, find your branch, and click the green button &ldquo;Compare and pull request&rdquo;. IMPORTANT: Change the base repository from &ldquo;sourcethemes&rdquo; to &ldquo;okenk&rdquo;. Add a message summarizing your changes. Then click the green button &ldquo;Send pull request&rdquo;.</li>
+<li>The published html files are associated with a different repository. Kiva will update these.</li>
+</ol>
+
+<p>Some git commands can be run through RStudio. For more info, <a href="https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN" target="_blank">go here</a>.</p>
+
+<p>If you found these directions confusing, please improve them! You can find the directions in ~/content/internal/index.md</p>
+
+    </div>
+
+    
+
+
+    
+
+
+
+    
+
+    
+
+    
+
+
+  </div>
+</article>
 
       
 
