@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Oken Lab</title>
-    <link>https://okenk.github.io/</link>
+    <link>/</link>
     <description>Recent content on Oken Lab</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     
-	    <atom:link href="https://okenk.github.io/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://okenk.github.io/pubs/</link>
+      <link>/pubs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://okenk.github.io/pubs/</guid>
+      <guid>/pubs/</guid>
       <description>
 
 &lt;h1 id=&#34;publications&#34;&gt;Publications&lt;/h1&gt;
 
-&lt;p&gt;Many of these are open access, but please &lt;a href=&#34;https://okenk.github.io/#contact&#34; target=&#34;_blank&#34;&gt;get in touch&lt;/a&gt; if you&amp;rsquo;d like a copy of one behind a paywall!&lt;/p&gt;
+&lt;p&gt;Many of these are open access, but please &lt;a href=&#34;/#contact&#34; target=&#34;_blank&#34;&gt;get in touch&lt;/a&gt; if you&amp;rsquo;d like a copy of one behind a paywall!&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Oken, K.L.&lt;/strong&gt;, D.S. Holland, and A.E. Punt. (2020) &lt;a href=&#34;https://ecoevorxiv.org/u5qze/&#34; target=&#34;_blank&#34;&gt;The effects of population synchrony, life history,and access constraints on benefits from fishing portfolios&lt;/a&gt; EcoEvoArxiv&lt;/li&gt;
@@ -55,19 +55,19 @@
     
     <item>
       <title></title>
-      <link>https://okenk.github.io/home/</link>
+      <link>/home/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://okenk.github.io/home/</guid>
+      <guid>/home/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://okenk.github.io/internal/</link>
+      <link>/internal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://okenk.github.io/internal/</guid>
+      <guid>/internal/</guid>
       <description>
 
 &lt;h1 id=&#34;how-to-add-yourself-to-the-lab-webpage&#34;&gt;How to add yourself to the lab webpage&lt;/h1&gt;
@@ -123,19 +123,19 @@ This will update the files in your local repository and then add your changes on
     
     <item>
       <title></title>
-      <link>https://okenk.github.io/prospectives/</link>
+      <link>/prospectives/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://okenk.github.io/prospectives/</guid>
+      <guid>/prospectives/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Quantitative fisheries ecologists</title>
-      <link>https://okenk.github.io/people/</link>
+      <link>/people/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://okenk.github.io/people/</guid>
+      <guid>/people/</guid>
       <description></description>
     </item>
     

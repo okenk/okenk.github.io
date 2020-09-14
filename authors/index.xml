@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Oken Lab</title>
-    <link>https://okenk.github.io/authors/</link>
+    <link>/authors/</link>
     <description>Recent content in Authors on Oken Lab</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     
-	    <atom:link href="https://okenk.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://okenk.github.io/authors/admin/</link>
+      <link>/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://okenk.github.io/authors/admin/</guid>
+      <guid>/authors/admin/</guid>
       <description>
 
 &lt;h3 id=&#34;biography&#34;&gt;Biography&lt;/h3&gt;
@@ -26,10 +26,10 @@
     
     <item>
       <title></title>
-      <link>https://okenk.github.io/authors/andrea-odell/</link>
+      <link>/authors/andrea-odell/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://okenk.github.io/authors/andrea-odell/</guid>
+      <guid>/authors/andrea-odell/</guid>
       <description>
 
 &lt;h3 id=&#34;biography&#34;&gt;Biography&lt;/h3&gt;
@@ -40,10 +40,10 @@
     
     <item>
       <title></title>
-      <link>https://okenk.github.io/authors/nima-farchadi/</link>
+      <link>/authors/nima-farchadi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://okenk.github.io/authors/nima-farchadi/</guid>
+      <guid>/authors/nima-farchadi/</guid>
       <description>
 
 &lt;h3 id=&#34;biography&#34;&gt;Biography&lt;/h3&gt;
@@ -54,10 +54,10 @@
     
     <item>
       <title>kiva-oken</title>
-      <link>https://okenk.github.io/authors/kiva-oken/</link>
+      <link>/authors/kiva-oken/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://okenk.github.io/authors/kiva-oken/</guid>
+      <guid>/authors/kiva-oken/</guid>
       <description></description>
     </item>
     
