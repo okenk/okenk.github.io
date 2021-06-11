@@ -23,7 +23,7 @@
 &lt;p&gt;Many of these are open access, but please &lt;a href=&#34;https://okenk.github.io/#contact&#34; target=&#34;_blank&#34;&gt;get in touch&lt;/a&gt; if you&amp;rsquo;d like a copy of one behind a paywall!&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Oken, K.L.&lt;/strong&gt;, D.S. Holland, and A.E. Punt. (2021) &lt;a href=&#34;https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1002/eap.2307&#34; target=&#34;_blank&#34;&gt;The effects of population synchrony, life history, and access constraints on benefits from fishing portfolios&lt;/a&gt;. Ecological Applications.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Oken, K.L.&lt;/strong&gt;, D.S. Holland, and A.E. Punt. (2021) &lt;a href=&#34;https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1002/eap.2307&#34; target=&#34;_blank&#34;&gt;The effects of population synchrony, life history, and access constraints on benefits from fishing portfolios&lt;/a&gt;. Ecological Applications. 31:e2307&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Jensen O.P., C.W. Martin, &lt;strong&gt;K.L. Oken&lt;/strong&gt;, F.J. Fodrie, P.C. López-Duarte, K.W. Able, and B.J. Roberts. (2019) &lt;a href=&#34;https://www.int-res.com/abstracts/meps/v624/p183-194/&#34; target=&#34;_blank&#34;&gt;Simultaneous estimation of dispersal and survival of the Gulf Killifish (&lt;em&gt;Fundulus grandis&lt;/em&gt;) from a batch tagging experiment&lt;/a&gt;. Marine Ecology Progress Series. 624:183-194.&lt;/p&gt;&lt;/li&gt;
 
@@ -71,65 +71,6 @@
       
       <guid>https://okenk.github.io/home/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://okenk.github.io/internal/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://okenk.github.io/internal/</guid>
-      <description>
-
-&lt;h1 id=&#34;how-to-add-yourself-to-the-lab-webpage&#34;&gt;How to add yourself to the lab webpage&lt;/h1&gt;
-
-&lt;p&gt;The lab webpage is hosted by github pages. The code for the webpage is in a github repository. Any collaborator on the repository can make changes to the webpage.&lt;/p&gt;
-
-&lt;h3 id=&#34;if-you-have-never-used-git-and-github-before&#34;&gt;If you have never used git and github before:&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34;&gt;Sign up for an account&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://git-scm.com/downloads&#34; target=&#34;_blank&#34;&gt;Download the git software&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Get your git account set up on your computer. Check out this &lt;a href=&#34;https://help.github.com/en/github/getting-started-with-github&#34; target=&#34;_blank&#34;&gt;getting started document&lt;/a&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;now-that-you-have-git-working-you-can-download-the-website-repo-locally&#34;&gt;Now that you have git working, you can download the website repo locally&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Give Kiva your github username so she can add you as a collaborator for the website repo.&lt;/li&gt;
-&lt;li&gt;In  the terminal (MacOS) or Git Bash (Windows), type &lt;code&gt;git clone https://github.com/okenk/academic-kickstart.git directory-name&lt;/code&gt; where &amp;ldquo;directory-name&amp;rdquo; is what you want the folder to be called. It may ask for your github username and password. Once it is downloaded, switch to the new directory with &lt;code&gt;cd directory-name&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Now type &lt;code&gt;git submodule update --init --recursive&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;We want to avoid problems associated with two people editing things at once. By default, you are working off of the &amp;ldquo;master branch.&amp;rdquo; Instead, you want to work off of your own development branch. To do this, type &lt;code&gt;git checkout -b my-awesome-branch&lt;/code&gt;. (You can call the branch whatever you want.) Now it&amp;rsquo;s time to make changes!&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;how-to-add-yourself-to-the-list-of-lab-members&#34;&gt;How to add yourself to the list of lab members&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Create a new folder: ~/content/authors/your-name where ~ is the location of the lab webpage directory on your local computer.&lt;/li&gt;
-&lt;li&gt;Using the _index.md file in the admin sub-directory of authors as a template, create and fill in your own _index.md file in your new personal folder. (The file name still needs to be called _index.md.) Set &lt;code&gt;superuser = false&lt;/code&gt;. Set &lt;code&gt;organization&lt;/code&gt; equal to your graduate group if you are a grad student; keep it as WFCB if you are a postdoc. Set your &lt;code&gt;user group&lt;/code&gt; equal to &lt;code&gt;&amp;quot;Graduate students&amp;quot;&lt;/code&gt; or &lt;code&gt;&amp;quot;Postdocs&amp;quot;&lt;/code&gt;. Your &lt;code&gt;role&lt;/code&gt; can be more specific, e.g., PhD student, PhD candidate, MS student, etc. I usually do this in RStudio but any text editor will do. If using RStudio, open the website&amp;rsquo;s RProject first, ~/academic.RProj.&lt;/li&gt;
-&lt;li&gt;Fill in remaining personal details and a short biography. Feel free to leave anything out or add extra links.&lt;/li&gt;
-&lt;li&gt;Add a picture of yourself to your directory folder and title it avatar.jpg&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;ok-now-it-s-time-to-test-your-changes-push-them-to-the-remote-repository-and-rebuild-the-website&#34;&gt;Ok, now it&amp;rsquo;s time to test your changes, push them to the remote repository, and rebuild the website.&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://gohugo.io/getting-started/installing/&#34; target=&#34;_blank&#34;&gt;Install Hugo&lt;/a&gt;. This is the engine that takes a bunch of markdown files and the other setup parameters and themes and converts the whole thing to html.&lt;/li&gt;
-&lt;li&gt;Install the &lt;code&gt;blogdown&lt;/code&gt; R package.&lt;/li&gt;
-&lt;li&gt;With the website&amp;rsquo;s RProject open, run the R command &lt;code&gt;blogdown::serve_site()&lt;/code&gt;. The website will open in the RStudio preview window, though it&amp;rsquo;s kind of buggy. Instead, after successfully running the R command, there should be a message &amp;ldquo;Serving the directory ~ at X.&amp;rdquo; Copy the url X into a web browser, and you can better preview the webpage.&lt;/li&gt;
-&lt;li&gt;If you want to make further changes, &lt;code&gt;blogdown&lt;/code&gt; will automatically update newly saved changes to the locally served site, so just hit refresh in your browser after hitting save in RStudio.&lt;/li&gt;
-&lt;li&gt;Back in the terminal or Git Bash, type &lt;code&gt;git add .&lt;/code&gt; and then &lt;code&gt;git commit -m &amp;quot;description of changes made&amp;quot;&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Check github to make sure no one else published any changes while you were working. If not, type &lt;code&gt;git commit -a -m &amp;quot;message describing what you did&amp;quot;&lt;/code&gt;. If there are changes, go back to the terminal or Git Bash and type &lt;code&gt;git fetch&lt;/code&gt; followed by &lt;code&gt;git rebase&lt;/code&gt;.
-This will update the files in your local repository and then add your changes on top of that.&lt;/li&gt;
-&lt;li&gt;Now type &lt;code&gt;git push&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Navigate to the &lt;a href=&#34;https://github.com/okenk/academic-kickstart&#34; target=&#34;_blank&#34;&gt;online repo on github&lt;/a&gt;, find your branch, and click the green button &amp;ldquo;Compare and pull request&amp;rdquo;. IMPORTANT: Change the base repository from &amp;ldquo;sourcethemes&amp;rdquo; to &amp;ldquo;okenk&amp;rdquo;. Add a message summarizing your changes. Then click the green button &amp;ldquo;Send pull request&amp;rdquo;.&lt;/li&gt;
-&lt;li&gt;The published html files are associated with a different repository. Kiva will update these.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Some git commands can be run through RStudio. For more info, &lt;a href=&#34;https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN&#34; target=&#34;_blank&#34;&gt;go here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;If you found these directions confusing, please improve them! You can find the directions in ~/content/internal/index.md&lt;/p&gt;
-</description>
     </item>
     
     <item>
